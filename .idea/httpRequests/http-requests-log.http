@@ -1,0 +1,160 @@
+DELETE http://localhost/todos/deleteAll
+
+###
+
+DELETE http://localhost/todos/deleteAll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping"}
+
+###
+
+DELETE http://localhost/todos/5e78a4724c918215e09f0849
+
+<> 2020-03-23T013259.200.json
+
+###
+
+DELETE http://localhost/todos/5e78a2864c918215e09f0848
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping"}
+
+<> 2020-03-23T013149.200.json
+
+###
+
+DELETE http://localhost/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping"}
+
+<> 2020-03-23T013112.404.html
+
+###
+
+POST http://localhost/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping"}
+
+<> 2020-03-22T065428.200.json
+
+###
+
+GET http://localhost/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping"}
+
+<> 2020-03-22T065412.200.json
+
+###
+
+POST http://localhost/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping"}
+
+###
+
+POST http://localhost:80/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping"}
+
+###
+
+POST http://localhost/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping"}
+
+###
+
+POST http://localhost/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping"}
+
+###
+
+POST http://localhost/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping", todoState:"false"}
+
+<> 2020-03-22T013422.400.html
+
+###
+
+POST http://localhost/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping"}
+
+###
+
+GET http://localhost/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+POST http://localhost/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"title":"Going Shopping"}
+
+###
+
+GET http://localhost:27017/todos
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET http://localhost:27017/todos
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:27017/todos
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET mongodb://localhost:27017/todos
+Accept: */*
+Cache-Control: no-cache
+
+###
+
