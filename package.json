@@ -13,7 +13,7 @@
     "eslint-auto-fix": "^1.0.1"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "express": "latest",
     "mongoose": "^5.9.5"
   }
